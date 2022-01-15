@@ -73,7 +73,7 @@ let search = new BinarySearch();
 let arr = [1, 2, 3, 4, 5];
 // arr = [5, 4, 3, 2, 1]; 
 
-let target = 1;
+let target = 2;
 let indexIterative = search.binarySearch(arr, target);
 let indexRecursive = search.binarySearchRecursive(arr, 0, arr.length - 1, target);
 
