@@ -1,4 +1,5 @@
 // Bubble Sort
+
 class BubbleSort {
 
     sort() {
