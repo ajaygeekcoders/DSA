@@ -59,6 +59,8 @@ class Stack {
     }
 
 }
+
+// Example
 let array = [];
 const stack = new Stack(array);
 stack.push(1);
@@ -67,6 +69,7 @@ stack.pop();
 
 console.log({ array })
 
+// Example
 let array1 = [];
 const stack1 = new Stack(array1);
 stack1.push(1);
@@ -76,15 +79,13 @@ console.log(stack1.peek());
 console.log({ array1 });
 
 
-
+// Example
 // creating object for stack class
-var stacks = new Stack([]);
+const stacks = new Stack([]);
 
 // testing isEmpty and pop on an empty stack
-
 // returns false
 console.log(stacks.isEmpty());
-
 // returns Underflow
 console.log(stacks.pop());
 
