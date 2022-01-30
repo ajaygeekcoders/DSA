@@ -12,6 +12,7 @@
  * printQueue() - Helper Methods
  */
 
+// Queue class
 class Queue {
     items = []; // Array is used to implement stack
 

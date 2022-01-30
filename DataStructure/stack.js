@@ -1,5 +1,6 @@
 /**
  * Refer - https://www.geeksforgeeks.org/implementation-stack-javascript/
+ * Refer - https://www.geeksforgeeks.org/stack-data-structure/
  *  Stack is a very useful data structure and has a wide range of application. Stack is a linear data structure in which 
  *  addition or removal of element follows a particular order i.e. LIFO(Last in First Out) AND FILO(First in Last Out).
  * LIFO / FILO
@@ -12,6 +13,7 @@
  * printStack() - Helper Methods
  */
 
+// Stack Class
 class Stack {
     items = [];    // Array is used to implement stack
 
