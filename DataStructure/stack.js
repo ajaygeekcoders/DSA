@@ -1,23 +1,21 @@
-
-// Place to run code and test DSA 
-
 /**
  * Refer - https://www.geeksforgeeks.org/implementation-stack-javascript/
- * Stack is a very useful data structure and has a wide range of application. Stack is a linear data structure in which 
- * addition or removal of element follows a particular order i.e. LIFO(Last in First Out) AND FILO(First in Last Out).
+ *  Stack is a very useful data structure and has a wide range of application. Stack is a linear data structure in which 
+ *  addition or removal of element follows a particular order i.e. LIFO(Last in First Out) AND FILO(First in Last Out).
+ * LIFO / FILO
  * 
  * Functions to be implemented
- * push(item)
- * pop()
- * peek()
- * isEmpty()
- * printStack()
+ * push(item) - Add item to array
+ * pop() - Remove item from array
+ * peek() - Return last or top most element from array
+ * isEmpty() - Helper Methods
+ * printStack() - Helper Methods
  */
 
 class Stack {
-    items = [];
+    items = [];    // Array is used to implement stack
+
     constructor(array) {
-        // push element into the items
         this.items = array;
     }
 
